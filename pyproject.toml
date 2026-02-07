@@ -1,0 +1,12 @@
+[project]
+name = "basic-erc165"
+version = "0.1.0"
+description = "Basic ERC165 (interface detection) in Vyper with supportsInterface, custom interface implementation, and pytest tests via Titanoboa"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mamushi>=0.1.0",
+    "pytest>=9.0.2",
+    "ruff>=0.15.0",
+    "titanoboa>=0.2.8",
+]

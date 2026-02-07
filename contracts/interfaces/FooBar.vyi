@@ -1,0 +1,12 @@
+# pragma version ==0.4.3
+
+
+@external
+@view
+def calculate() -> uint256:
+    ...
+
+
+@external
+def test1(_target: address):
+    ...
